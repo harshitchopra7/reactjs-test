@@ -1,11 +1,15 @@
-import logo from "./logo.svg";
 import "./App.css";
+// import
+import Home from "./Home";
+import UseState from "./UseState";
 
+// declaring
 function App() {
+  // JSX
   return (
     <div>
-      <p>My name is Harshit Chopra</p>
-      <p>I am a human</p>
+      {/* <Home /> */}
+      <UseState />
     </div>
   );
 }
