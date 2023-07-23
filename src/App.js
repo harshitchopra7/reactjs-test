@@ -1,3 +1,5 @@
+import APICalling from "./API/APICalling";
+import EcommerceAPIExample from "./API/EcommerceAPIExample";
 import "./App.css";
 // import
 import Home from "./Home";
@@ -9,7 +11,9 @@ function App() {
   return (
     <div>
       {/* <Home /> */}
-      <UseState />
+      {/* <UseState /> */}
+      {/* <APICalling /> */}
+      <EcommerceAPIExample />
     </div>
   );
 }
